@@ -1,0 +1,72 @@
+[
+  {
+    "description": "Clavier sans fil - Le pouvoir d'évoluer plus facilement",
+    "reference": "2908792903531",
+    "categorie": "Matériel informatique",
+    "prix": 1505.12,
+    "unite": "jour"
+  },
+  {
+    "description": "Clavier sans fil - Le plaisir d'innover autrement",
+    "reference": "3011850475686",
+    "categorie": "Matériel informatique",
+    "prix": 935.33,
+    "unite": "lot"
+  },
+  {
+    "description": "Disque SSD - L'assurance de concrétiser vos projets à la pointe",
+    "reference": "9971137322802",
+    "categorie": "Matériel informatique",
+    "prix": 1840.69,
+    "unite": "pièce"
+  },
+  {
+    "description": "Carte graphique - L'art de changer à sa source",
+    "reference": "5100692377451",
+    "categorie": "Matériel informatique",
+    "prix": 808.17,
+    "unite": "lot"
+  },
+  {
+    "description": "Processeur - L'avantage de concrétiser vos projets de manière efficace",
+    "reference": "3782903142953",
+    "categorie": "Matériel informatique",
+    "prix": 182.17,
+    "unite": "jour"
+  },
+  {
+    "description": "Ordinateur portable - Le droit d'évoluer de manière efficace",
+    "reference": "8751696228064",
+    "categorie": "Matériel informatique",
+    "prix": 463.39,
+    "unite": "pièce"
+  },
+  {
+    "description": "Webcam HD - La possibilité d'avancer de manière sûre",
+    "reference": "4927388776708",
+    "categorie": "Matériel informatique",
+    "prix": 142.74,
+    "unite": "lot"
+  },
+  {
+    "description": "Disque SSD - Le droit d'évoluer à l'état pur",
+    "reference": "8061110155099",
+    "categorie": "Matériel informatique",
+    "prix": 1013.81,
+    "unite": "pièce"
+  },
+  {
+    "description": "Disque SSD - Le pouvoir d'atteindre vos buts autrement",
+    "reference": "0334481564684",
+    "categorie": "Matériel informatique",
+    "prix": 1053.2,
+    "unite": "licence"
+  },
+  {
+    "description": "Dock station - Le plaisir d'innover de manière sûre",
+    "reference": "6431468576068",
+    "categorie": "Matériel informatique",
+    "prix": 166.65,
+    "unite": "pièce"
+  }
+]

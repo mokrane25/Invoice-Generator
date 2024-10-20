@@ -1,0 +1,72 @@
+[
+  {
+    "description": "Webcam HD - La liberté de rouler de manière sûre",
+    "reference": "7189513553135",
+    "categorie": "Matériel informatique",
+    "prix": 1456.32,
+    "unite": "lot"
+  },
+  {
+    "description": "Disque SSD - La liberté de rouler de manière efficace",
+    "reference": "6535047021700",
+    "categorie": "Matériel informatique",
+    "prix": 247.57,
+    "unite": "mois"
+  },
+  {
+    "description": "Webcam HD - La possibilité d'évoluer avant-tout",
+    "reference": "4339412897653",
+    "categorie": "Matériel informatique",
+    "prix": 956.76,
+    "unite": "licence"
+  },
+  {
+    "description": "Souris ergonomique - Le droit de changer plus rapidement",
+    "reference": "2164843394790",
+    "categorie": "Matériel informatique",
+    "prix": 862.57,
+    "unite": "lot"
+  },
+  {
+    "description": "RAM DDR4 - Le pouvoir de concrétiser vos projets de manière sûre",
+    "reference": "8598025925894",
+    "categorie": "Matériel informatique",
+    "prix": 428.16,
+    "unite": "licence"
+  },
+  {
+    "description": "Écran LCD - Le plaisir de concrétiser vos projets de manière efficace",
+    "reference": "5665960251241",
+    "categorie": "Matériel informatique",
+    "prix": 1846.03,
+    "unite": "jour"
+  },
+  {
+    "description": "Souris ergonomique - Le pouvoir de rouler sans soucis",
+    "reference": "5873283411628",
+    "categorie": "Matériel informatique",
+    "prix": 626.85,
+    "unite": "mois"
+  },
+  {
+    "description": "RAM DDR4 - L'assurance de concrétiser vos projets de manière efficace",
+    "reference": "6468667339385",
+    "categorie": "Matériel informatique",
+    "prix": 67.88,
+    "unite": "mois"
+  },
+  {
+    "description": "Ordinateur portable - Le confort d'atteindre vos buts sans soucis",
+    "reference": "2310286841753",
+    "categorie": "Matériel informatique",
+    "prix": 708.45,
+    "unite": "mois"
+  },
+  {
+    "description": "Disque SSD - Le pouvoir d'atteindre vos buts de manière efficace",
+    "reference": "4811885603394",
+    "categorie": "Matériel informatique",
+    "prix": 81.92,
+    "unite": "pièce"
+  }
+]
