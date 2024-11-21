@@ -1,0 +1,141 @@
+{
+  "TABLE": [
+    [
+      {
+        "bbox": [
+          [10.0, 328.88980000000004],
+          [560.0, 220.8898]
+        ]
+      }
+    ]
+  ],
+  "INVOICE_INFO": [],
+  "BUYER": {
+    "bbox": [
+      [332.0, 614.4058000000001],
+      [500.43199999999996, 698.4058]
+    ],
+    "text": "Facturé à : Denise Perez\n16424 Mission Timothy\nMarkville, AK 58294 US\nTél : +(352)259-8443\nEmail : melvin40@example.net\nSite : http://smith.org/"
+  },
+  "DATE": {
+    "bbox": [
+      [328.0, 776.4058],
+      [428.704, 788.4058]
+    ],
+    "text": "Date : 20-Mar-2008"
+  },
+  "DISCOUNT": {
+    "bbox": [
+      [388.0, 147.4058],
+      [552.028, 159.4058]
+    ],
+    "text": "REMARQUE (1.85%) : (-) 13.42"
+  },
+  "DUE_DATE": {
+    "bbox": [
+      [329.0, 760.4058],
+      [459.704, 772.4058]
+    ],
+    "text": "Date d'échéance : 16-Oct-2016"
+  },
+  "GSTIN_BUYER": {
+    "bbox": [
+      [231.0, 588.4058],
+      [406.728, 600.4058]
+    ],
+    "text": "GSTIN : OG@AAMFCO376K124"
+  },
+  "NOTE": {
+    "bbox": [
+      [9.0, 44.00576],
+      [277.056, 70.40576]
+    ],
+    "text": "Remarque :\nCette commande est expédiée par Blue Dart Courier"
+  },
+  "PAYMENT_DETAILS": {
+    "bbox": [
+      [9.0, 103.2058],
+      [246.40800000000002, 158.4058]
+    ],
+    "text": "Nom de la banque : Banque d'État de Californie\nNom de l'agence : Raf CAMP\nNuméro de compte bancaire : 11695435\nCode Swift : SBININBB250"
+  },
+  "PO_NUMBER": {
+    "bbox": [
+      [329.0, 744.6128],
+      [408.464, 755.6128]
+    ],
+    "text": "Numéro PO : 35"
+  },
+  "SELLER_ADDRESS": {
+    "bbox": [
+      [29.0, 671.0058],
+      [212.38400000000001, 697.4058]
+    ],
+    "text": "Adresse : 16424 Mission Timothy\nMarkville, AK 58294 US"
+  },
+  "SELLER_EMAIL": {
+    "bbox": [
+      [27.0, 640.4058],
+      [195.432, 652.4058]
+    ],
+    "text": "Email : melvin40@example.net"
+  },
+  "SELLER_SITE": {
+    "bbox": [
+      [27, 626],
+      [190, 638]
+    ],
+    "text": "www.ThompsonandSons.org"
+  },
+  "SUB_TOTAL": {
+    "bbox": [
+      [388.0, 163.4058],
+      [539.3679999999999, 175.4058]
+    ],
+    "text": "SOUS-TOTAL : 725.30 EUR"
+  },
+  "TAX": {
+    "bbox": [
+      [388.0, 134.4058],
+      [554.704, 146.4058]
+    ],
+    "text": "TAXE : TVA (3.88%) : 28.18 EUR"
+  },
+  "TITLE": {
+    "bbox": [
+      [328.0, 802.1638],
+      [443.02, 820.1638]
+    ],
+    "text": "FACTURE TAXE"
+  },
+  "TOTAL": {
+    "bbox": [
+      [388.0, 90.40576],
+      [504.02799999999996, 102.40576]
+    ],
+    "text": "TOTAL : 734.33 EUR"
+  },
+  "TOTAL_WORDS": {
+    "bbox": [
+      [9.0, 159.0058],
+      [241.70399999999998, 185.4058]
+    ],
+    "text": "Total en mots : sept cent trente-quatre virgule trente-trois"
+  },
+  "GSTIN_SELLER": {
+    "bbox": [
+      [27.0, 612.4058],
+      [185.08799999999997, 624.4058]
+    ],
+    "text": "(GSTIN : 12345670 00070007"
+  },
+  "OTHER": {
+    "text": "FACTURE TAXE\n\nDate : 20-Mar-2008\nDate d'échéance : 16-Oct-2016\nNuméro PO : 35\n\nAdresse : 16424 Mission Timothy Facturé à : Denise Perez\n\nMarkville, AK 58294 US 16424 Mission Timothy\nMarkville, AK 58294 US\n\nEmail : melvind0@example.net Tél : +(352)259-8443\n\nsleekbill dans Email : melvin40@example.net\n\n(GSTIN : 12345670 00070007 Site : http://smith.org/\n\nGSTIN : OG@AAMFCO376K124\n\nARTICLES QUANTITÉ\n\nDonnées score feu. 6.00\n\nDéterminer moitié. 2.00\nLire modèle. 1.00\n\nConsidérer mère. 1.00\n\nFocus télévision. 4.00\n\nTotal en mots : sept cent trente-quatre virgule trente-trois\n\nSOUS-TOTAL : 725.30 EUR\nNom de la banque Banque d'État de Californie REMARQUE (1.85%) : (-) 13.42\nNom de l'agence Raf CAMP TAXE : TVA (3.88%) : 28.18 EUR\n\nNuméro de compte bancaire 11695435\nCode Swift de la banque SBININBB250\nTOTAL : 734.33 EUR\n\nRemarque :\nCette commande est expédiée par Blue Dart Courier\n"
+  },
+  "LOGO": {
+    "bbox": [
+      [0, 841],
+      [90, 751]
+    ]
+  }
+}

@@ -24,6 +24,8 @@ def generate_invoice_from_json(json_file, template_path,  output_folder="output_
             text = content['text']
             bbox = content['bbox']
             
+            print(f"Texte: {text}, Bounding box: {bbox}")
+            
             # Récupération des coordonnées de la bounding box et inversion de l'axe y
             x1, y1 = bbox[0]
             x2, y2 = bbox[1]
@@ -87,16 +89,14 @@ def add_logo_to_invoice(template_path, logo_bbox, img, image_size):
     
     
 # Dossier contenant les fichiers JSON
-json_folder = "./FATURA"
+json_file = "FATURA/template.json"
 template_path = "FATURA/preview.jpeg"
 output_folder="output_invoices"
 image_size = Image.open("FATURA/preview.jpeg").size  # (width, height)
 
 
 # Générer une facture pour chaque fichier JSON dans le dossier
-for json_file in os.listdir(json_folder):
-    if json_file.endswith(".json"):
-        # generate_invoice_from_json(os.path.join(json_folder, json_file))
-        generate_invoice_from_json(os.path.join(json_folder, json_file), template_path, output_folder, image_size)
+generate_invoice_from_json(json_file, template_path, output_folder, image_size)
+
 
 
