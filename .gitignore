@@ -1,2 +1,9 @@
-venv/
-venv2/
+.venv/
+venv_procom/
+__pycache__/
+output_invoices/
+FATURA2/
+generated_invoices/
+generated_invoices_tables/
+
+

@@ -34,6 +34,9 @@ def add_logo_to_invoice(template_path, logo_bbox, img, image_size):
         
     
     
+    
+
+
 def extract_table_bbox_from_json(json_path):
     """
     Extrait la bounding box du tableau à partir d'un fichier JSON.
@@ -50,7 +53,6 @@ def extract_table_bbox_from_json(json_path):
     # Assurez-vous que la structure JSON correspond
     table_bbox = data["TABLE"][0][0]["bbox"]
     return table_bbox
-
 
 def extract_table_data_from_image(image_path, table_bbox):
     """
@@ -95,7 +97,6 @@ def extract_table_data_from_image(image_path, table_bbox):
     
     return table_data
 
-
 def translate_table_data(table_data, src_lang='en', dest_lang='fr'):
     """
     Traduit les données du tableau de l'anglais en français et remplace les signes de dollar par des signes d'euro.
@@ -126,6 +127,7 @@ def translate_table_data(table_data, src_lang='en', dest_lang='fr'):
         # Inverser l'ordre des listes
     table_data_fr.reverse()
     return table_data_fr
+
 
 def draw_table_on_image(img, table_bbox, table_data, output_folder="output_invoices"):
     """
@@ -192,9 +194,8 @@ def draw_table_on_image(img, table_bbox, table_data, output_folder="output_invoi
 
 
 
-
 # Fonction pour générer une facture à partir d'un fichier JSON et sauvegarder en JPEG
-def generate_invoice_from_json(json_file, template_path,  output_folder="output_invoices", image_size=(600, 900)):
+def generate_invoice_from_json(json_file, template_path,  output_folder="output_invoices", image_size=(600, 900), output_file="output_invoice.jpeg"):
     # Charger le contenu du fichier JSON
     with open(json_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -240,7 +241,7 @@ def generate_invoice_from_json(json_file, template_path,  output_folder="output_
     
     
     # Extraire la bounding box du tableau à partir du JSON
-    table_bbox = extract_table_bbox_from_json(json_path)
+    table_bbox = extract_table_bbox_from_json(json_file)
     # Extraire les données du tableau à partir de l'image
     table_data = extract_table_data_from_image(template_path, table_bbox)
     # Traduire les données du tableau en français
@@ -255,7 +256,7 @@ def generate_invoice_from_json(json_file, template_path,  output_folder="output_
         os.makedirs(output_folder)
     
     # Enregistrer l'image modifiée au format JPEG
-    output_path = os.path.join(output_folder, "output_invoice.jpeg")
+    output_path = os.path.join(output_folder, output_file)
     img.save(output_path, "JPEG")
     print(f"Facture générée et enregistrée dans {output_path}")
     
@@ -264,22 +265,32 @@ def generate_invoice_from_json(json_file, template_path,  output_folder="output_
 
     
     
+
+def main():
+    json_path = "FATURA_templates/template_fr.json"      # Dossier contenant les fichiers JSON 
+    # img_path = "FATURA/template.jpeg"
+    template_path = "FATURA_templates/preview.jpeg"      # pour extraire les données du tableau 
+    image_size = Image.open(template_path).size  # (width, height)
+
+    output_folder = "output_invoices"
     
 
-json_path = "FATURA/template.json"      # Dossier contenant les fichiers JSON 
-# img_path = "FATURA/template.jpeg"
-template_path = "FATURA/preview.jpeg"      # pour extraire les données du tableau 
-image_size = Image.open("FATURA/preview.jpeg").size  # (width, height)
-
-output_folder = "output_invoices"
+    generate_invoice_from_json(json_path, template_path, output_folder, image_size)
 
 
+def main():
+    for i in range(10):
+        json_path = f"FATURA2/invoices_dataset_final/Annotations/Original_Format/Template1_Instance{i}.json"      # Dossier contenant les fichiers JSON 
+        
+        template_path = f"FATURA2/invoices_dataset_final/images/Template1_Instance{i}.jpg"      # pour extraire les données du tableau 
+        image_size = Image.open(template_path).size
 
+        output_folder = "output_invoices"
+        output_file = f"output_invoice{i}.jpeg"
 
-generate_invoice_from_json(json_path, template_path, output_folder, image_size)
-
-
-
-
-
+        generate_invoice_from_json(json_path, template_path, output_folder, image_size, output_file)
+    
+    
+if __name__ == "__main__":
+    main()
 
