@@ -3,7 +3,7 @@ venv_procom/
 __pycache__/
 output_invoices/
 FATURA2/
-generated_invoices/
 generated_invoices_tables/
-
-
+generated_invoices/
+generated_annotations/
+generated_all/
